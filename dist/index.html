@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Getting Started</title>
+    <script src="./main.js"></script>
+  </head>
+  <body>
+    <h1>Sample ADA Transfer App</h1>
+    <label for="network">Choose network:</label>
+    <select name="network" id="network">
+      <option value="Testnet">Testnet</option>
+      <option value="Mainnet">Mainnet</option>
+    </select>
+    <br>
+    <label for="wallet-provider">Choose wallet-provider:</label>
+    <select name="wallet-provider" id="wallet-provider">
+      <option value="nami">Nami</option>
+      <option value="flint">Flint</option>
+      <option value="yoroi">Yoroi</option>
+    </select>
+    <br><br>
+    <input id="addr-input" placeholder="Enter receiver address" value=""/>
+    <input id="snd-amt" placeholder="Enter total ADA to send"/>
+    <button id="snd-btn">Send</button>
+  </body>
+</html>
